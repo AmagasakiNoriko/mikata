@@ -9,12 +9,6 @@ import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
 
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? 'https://github.com/AmagasakiNoriko/mikata.git'  // リポジトリ名をここに記入
-    : '/'
-}
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
